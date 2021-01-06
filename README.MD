@@ -2,10 +2,10 @@
 
 Requires tensorflow on local machine, if have anaconda, run following command:
 
-Activate tensorflow
+1. Activate tensorflow
 - conda activate tensorflow
 
-Follow the following steps: 
+2. Follow the following steps: 
 - Step 1: Run gulp in dsl_library
 - Step 2: In /datasets, add custom images with naming convention (ie image-1, image-2)
 - Step 3: Update txt file in /datasets/script/create-gui-file.txt following image naming convention (ie image-1.gui, image-3.gui)
