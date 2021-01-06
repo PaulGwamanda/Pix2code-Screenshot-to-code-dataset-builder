@@ -23,18 +23,6 @@ html_folder = "dsl-library/DSL/templates"
 train_path = 'training-assets/datasets/train/'
 bootstrap_vocab = 'training-assets/bootstrap.vocab'
 
-
-# Create Gui files from create-gui-file.txt
-print("Creating Gui files...")
-List = open("datasets/script/create-gui-file.txt")
-List2 = (s.strip() for s in List)
-folder = "datasets/png-pairs/"
-# Loop through the list and create a file
-for item in List2:
-    open(folder + '/%s'%(item,), 'w')
-
-copy_tree(png_pairs, npz_pairs)
-
 print("Converting images to numpy arrays...")
 
 
@@ -112,10 +100,6 @@ if os.path.exists(train_path):
 
 # Copy files from png-pairs folder to npz-pairs folder
 copytree(source, train_path, ignore=ignore_patterns('*.png'))
-npz_folder = os.listdir(npz_pairs)
-for item in npz_folder:
-    if item.endswith(".png"):
-        os.remove(os.path.join(npz_pairs, item))
 
 # Copy dsl mapping file to new file path
 print("Creating web-dsl json file...")

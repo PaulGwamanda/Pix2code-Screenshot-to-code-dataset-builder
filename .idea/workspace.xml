@@ -2,324 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1d64e9-74a3-4177-adc8-63b527b5f8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Pix2code-Screenshot-to-code-dataset-builder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/png-pairs/001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/png-pairs/002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/png-pairs/003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/png-pairs/004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/png-pairs/005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/script/create-gui-file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/output/web-dsl-mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templateGroup/web.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/address/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/address/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/address/hours.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/address/telephone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/address/website.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-danger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-dark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-light.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-primary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-secondary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/alerts/alert-warning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/app-features/app-features.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/blogs/blog-date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/blogs/blog-post-no-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/blogs/blog-post-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/blogs/blog-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/blogs/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/booking-form/booking-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/buttons/app-store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/buttons/btn-block.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/buttons/button-group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/buttons/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/calendar/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/call-to-action/call-to-action.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/cards/card-with-image-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/cards/card-with-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/cards/card-with-overlay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/cards/card-without-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/carousel/banner-slideshow-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/carousel/banner-slideshow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/carousel/image-slideshow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/carousel/slideshow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/collapse/accordion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/countdown/count-down.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/breadcrumb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/call-to-action.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/closing-tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/copyright.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-bg-image-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-full-width-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/dom/opening-tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/contact-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/form-input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/login-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/range.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/search-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/subscribe-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/forms/textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/gallery/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-10-middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-12-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-12-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-12-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-2-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-5-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-5-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-5-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-5-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-bg-image-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-7-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-7-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8-middle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-9-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-9-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-9-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/grid/col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/group/group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/follow-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/icon-search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/icon-video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/star-rating.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/icons/tweet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/images/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/jumbotron/jumbotron-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/jumbotron/jumbotron-full-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/jumbotron/jumbotron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/list-group/list-horizontal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/list-group/list-item-with-badge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/list-group/list-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/list-group/list-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/masonry/masonry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/media-objects/audio-player.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/media-objects/media-object.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/burger-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/logo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-link-active.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/menu-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar-dark-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar-dark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar-transparent-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar-transparent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/navbar/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pagination/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pricing-table/pricing-table-active.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pricing-table/pricing-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/progress/progress-bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/progress/progress-circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pseudo-tags/closing-tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pseudo-tags/opening-tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/pseudo-tags/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-bordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-no-gutter-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-no-gutters-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-no-gutters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row-right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/rows/row.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-image-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-image-full-width-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-bg-map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-full-width-bg-color-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-full-width-bg-color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-full-width-bg-image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-full-width-centered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section-full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/section/section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/service/feature-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/service/feature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/service/service-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/service/service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/cart-icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/order-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/payment-method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/price.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product-colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product-description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product-sizes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product-specs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/shopping-cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shop/sort-products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/shuffle-portfolio/shuffle-portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/social-links/social-link-with-text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/social-links/social-link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/sponsors/sponsor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/stats/stats-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/stats/stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/table/stock-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/table/table-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/table/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/tabs/tabbed-horizontal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/tabs/tabbed-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/tags/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/tags/tags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/team-member/team-member-sideways.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/team-member/team-member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/testimonials/testimonial-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/testimonials/testimonials-slideshow-multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/testimonials/testimonials-slideshow-single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/timeline/timeline-horizontal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/timeline/timeline-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/h1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/h2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/h3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/h4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/h5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/lead-text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/quotation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/signature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/typography/word.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/DSL/templates/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/custom_stylesheet/custom-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/loop.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/website-1.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/website-2.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/website-3.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/website-4.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/website-5.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/scripts/loop-script/websites.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/blog-home-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/blog-home-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/blog-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/css/modern-business.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/full-width.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/js/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/js/jqBootstrapValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/mail/contact_me.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/portfolio-1-col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/portfolio-2-col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/portfolio-3-col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/portfolio-4-col.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/portfolio-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/pricing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsl-library/template-reference/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training-assets/bootstrap.vocab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training-assets/web-dsl-mapping.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -332,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datasets/script/create-gui-file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -348,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <first_editor relative-caret-position="51">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -409,10 +102,10 @@
         <option value="$PROJECT_DIR$/scripts/create-gui-file.py" />
         <option value="$PROJECT_DIR$/datasets/script/create-gui-file.txt" />
         <option value="$PROJECT_DIR$/datasets/script/create-gui-file.py" />
-        <option value="$PROJECT_DIR$/compiler.py" />
         <option value="$PROJECT_DIR$/training-assets/bootstrap.vocab" />
         <option value="$PROJECT_DIR$/datasets/README.MD" />
         <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/compiler.py" />
       </list>
     </option>
   </component>
@@ -444,13 +137,14 @@
             <path>
               <item name="Pix2code-Screenshot-to-code-dataset-builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pix2code-Screenshot-to-code-dataset-builder" type="462c0819:PsiDirectoryNode" />
-              <item name="training-assets" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="png-pairs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pix2code-Screenshot-to-code-dataset-builder" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pix2code-Screenshot-to-code-dataset-builder" type="462c0819:PsiDirectoryNode" />
-              <item name="training-assets" type="462c0819:PsiDirectoryNode" />
               <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -533,7 +227,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19283456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19283456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -545,7 +239,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25568798" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25568798" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -699,13 +393,6 @@
     <entry file="file://$PROJECT_DIR$/datasets/png-pairs/002.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasets/script/create-gui-file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-assets/bootstrap.vocab">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -723,8 +410,8 @@
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <first_editor relative-caret-position="51">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -732,11 +419,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compiler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/script/create-gui-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
