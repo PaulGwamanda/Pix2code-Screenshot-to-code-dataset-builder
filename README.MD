@@ -1,8 +1,8 @@
 @todo: update Readme
 
-* Requires tensorflow on local machine, if have anaconda, run following command:
+Requires tensorflow on local machine, if have anaconda, run following command:
 
-conda activate tensorflow
+- conda activate tensorflow
 
 * Next follow the following steps: 
 - Step 1: Run gulp in dsl_library
