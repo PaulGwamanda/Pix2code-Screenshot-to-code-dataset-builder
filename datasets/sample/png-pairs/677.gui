@@ -1,0 +1,73 @@
+header {
+navigation {
+navbar-transparent {
+menu-right {
+burger-menu
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext,
+button
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext
+}
+}
+}
+}
+
+section {
+group-centered {
+heading
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+}
+
+section {
+row-no-gutter {
+col-6 {
+group-bg-image
+}
+col-6 {
+slideshow {
+row {
+col-6 {
+heading,
+text,
+text
+}
+col-6 {
+heading,
+text,
+text
+}
+}
+text
+}
+}
+}
+}

@@ -1,0 +1,140 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+image
+}
+col-6 {
+heading,
+leadtext,
+button
+}
+}
+}
+}
+
+section-bg-color {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-6 {
+heading,
+leadtext,
+text
+}
+col-6 {
+group-centered {
+row {
+col-6 {
+card-with-overlay
+}
+col-6 {
+card-with-overlay
+}
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-6-middle {
+heading,
+button
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-8-middle {
+heading,
+leadtext
+}
+}
+row {
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+group-centered {
+heading,
+row {
+col-4 {
+pricing-table
+}
+col-4 {
+pricing-table
+}
+col-4 {
+pricing-table
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-8-middle {
+heading,
+text,
+subscribe-form
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-6 {
+copyright
+}
+col-6 {
+group-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+}

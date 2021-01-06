@@ -1,0 +1,236 @@
+header {
+navigation {
+navbar {
+menu-left {
+address,
+email,
+hours
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+navbar-transparent {
+logo,
+menu-right {
+logo,
+menu-centered {
+link-active,
+link,
+link,
+link,
+link,
+link,
+link,
+button
+}
+}
+}
+}
+banner-slideshow {
+heading,
+leadtext,
+group {
+button,
+button
+}
+}
+}
+
+section {
+heading,
+row-centered {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+tabbed-horizontal {
+row {
+col-6 {
+image
+}
+col-6 {
+leadtext,
+text
+}
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-12 {
+call-to-action
+}
+}
+}
+
+section-bg-image {
+row {
+col-8 {
+heading,
+leadtext,
+text
+}
+}
+row-centered {
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+}
+}
+
+section {
+row {
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+}
+row {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+col-6 {
+heading,
+text,
+group-centered {
+button
+}
+}
+col-6 {
+image
+}
+}
+}
+
+section {
+row {
+slideshow {
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+}
+}
+row-centered {
+col-12 {
+heading,
+list-horizontal {
+sponsor,
+sponsor,
+sponsor,
+sponsor,
+sponsor,
+sponsor
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-4 {
+logo,
+text,
+address,
+email,
+website,
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+col-8 {
+row {
+col-4 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col-4 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col-4 {
+heading,
+blog-post-no-image,
+blog-post-no-image,
+blog-post-no-image,
+blog-post-no-image,
+icon
+}
+}
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

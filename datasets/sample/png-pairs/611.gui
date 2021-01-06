@@ -1,0 +1,122 @@
+header {
+navigation {
+navbar-dark {
+menu-left {
+text
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+icon,
+icon,
+icon-cart,
+icon-search
+}
+}
+}
+}
+
+section {
+heading,
+leadtext
+}
+
+section {
+row {
+col-3 {
+service
+}
+col-3 {
+group-centered {
+team-member
+}
+}
+col-3 {
+group-centered {
+team-member
+}
+}
+col-3 {
+group-centered {
+team-member
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-3 {
+group-centered {
+team-member
+}
+}
+col-3 {
+group-centered {
+team-member
+}
+}
+col-3 {
+group-centered {
+team-member
+}
+}
+col-3 {
+service
+}
+}
+}
+
+section-bg-color {
+row {
+col-3 {
+logo,
+text,
+text
+}
+col-3 {
+heading,
+text,
+address,
+telephone,
+telephone,
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+col-3 {
+heading,
+map
+}
+col-3 {
+heading,
+gallery
+}
+}
+}
+
+footer-bg-color {
+copyright
+}

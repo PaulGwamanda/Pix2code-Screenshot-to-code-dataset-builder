@@ -1,0 +1,48 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+burger-menu
+}
+}
+}
+jumbotron
+}
+
+section-full-width {
+group-centered {
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+}
+
+section-bg-color-full-width {
+group-centered {
+row {
+col-12 {
+subheading,
+heading,
+shuffle-portfolio
+}
+}
+}
+}

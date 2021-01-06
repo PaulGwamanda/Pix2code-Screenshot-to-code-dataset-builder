@@ -1,0 +1,160 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+link,
+link,
+link,
+link
+}
+}
+navbar {
+menu-centered {
+logo
+}
+}
+navbar {
+menu-centered {
+link,
+link,
+link,
+link,
+link,
+link-active,
+link,
+icon-search
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-12 {
+heading
+}
+}
+row {
+breadcrumb
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext,
+link,
+image
+}
+}
+}
+}
+
+section {
+row-centered {
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-8-middle {
+heading,
+leadtext,
+testimonial-slideshow-single
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-3 {
+heading,
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+list-item
+}
+}
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link,
+}
+}
+}
+row-centered {
+col-12 {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-4 {
+copyright
+}
+col-4 {
+group-centered {
+text
+}
+}
+col-4 {
+list-horizontal {
+payment-method,
+payment-method,
+payment-method,
+payment-method,
+payment-method
+}
+}
+}
+}

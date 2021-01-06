@@ -1,0 +1,100 @@
+header {
+jumbotron {
+group-centered {
+row {
+col-12 {
+subheading,
+heading
+}
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-12 {
+heading,
+booking-form
+}
+}
+}
+
+section-bg-color {
+group-centered {
+group-centered {
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+}
+}
+
+section {
+row {
+col-6 {
+image
+}
+col-6 {
+heading,
+text,
+button
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+leadtext,
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+}
+
+section {
+row {
+col-6 {
+subheading,
+heading,
+text,
+button
+}
+col-6 {
+image
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+testimonial
+}
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

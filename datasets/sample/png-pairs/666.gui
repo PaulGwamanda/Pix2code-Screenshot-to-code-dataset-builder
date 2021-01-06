@@ -1,0 +1,22 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+link,
+link-active,
+link
+}
+}
+}
+jumbotron-full-page {
+row-centered {
+col-12 {
+heading,
+leadtext,
+subscribe-form,
+text
+}
+}
+}
+}

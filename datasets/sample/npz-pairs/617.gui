@@ -1,0 +1,118 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-12 {
+subheading,
+heading,
+button
+}
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext,
+image
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-6 {
+group-bg-color {
+card-with-image
+}
+}
+col-6 {
+group-bg-color {
+card-with-image
+}
+}
+}
+row {
+col-12 {
+leadtext,
+button
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-6 {
+copyright,
+list-horizontal {
+link,
+link
+}
+}
+col-6 {
+row {
+col-4 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col-4 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col-4 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+}
+}
+}
+}

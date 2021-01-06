@@ -1,0 +1,24 @@
+header {
+jumbotron-full-page {
+row {
+col-12 {
+heading,
+subheading,
+subheading,
+button
+}
+}
+}
+navbar-dark {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}

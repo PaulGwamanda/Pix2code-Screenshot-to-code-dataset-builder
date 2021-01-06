@@ -1,0 +1,79 @@
+header {
+jumbotron {
+group-centered {
+row {
+col-12 {
+icon,
+heading,
+button,
+image
+}
+}
+}
+}
+}
+
+section {
+row {
+col-7 {
+heading,
+text,
+button
+}
+col-5 {
+image
+}
+}
+row {
+col-7 {
+image
+}
+col-5 {
+heading,
+text,
+button
+}
+}
+row {
+col-7 {
+heading,
+text,
+button
+}
+col-5 {
+image
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-8-middle {
+image,
+heading,
+text,
+text,
+button
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-6 {
+copyright,
+text
+}
+col-6 {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}

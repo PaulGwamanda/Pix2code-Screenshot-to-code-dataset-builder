@@ -1,0 +1,39 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-8-middle {
+heading,
+leadtext,
+button
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+row {
+col-6 {
+leadtext
+}
+col-6 {
+text,
+text
+}
+}
+}
+}

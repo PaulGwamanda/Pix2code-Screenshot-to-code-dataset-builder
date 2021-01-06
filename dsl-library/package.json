@@ -1,0 +1,45 @@
+{
+  "name": "gulp-json-escape-html",
+  "version": "1.0.0",
+  "description": "Tool for creating a JSON file list out of html files in a folder. This is useful if you want to create a DSL of specific tokens ie html variables. Can be also useful if you want to generate various groups of templates and include only the html files you want.",
+  "homepage": "https://github.com/PaulGwamanda/gulp-json-escape-html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/PaulGwamanda/gulp-json-escape-html.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp html to json",
+    "angularjs",
+    "json",
+    "templateCache",
+    "group files",
+    "html to templateCache, template overrides"
+  ],
+  "author": {
+    "name": "John Turingan",
+    "url": "http://scriptsandpixels.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fancy-log": "^1.3.2",
+    "gulp": "gulpjs/gulp#4.0"
+  },
+  "dependencies": {
+    "ansi-colors": "^1.1.0",
+    "event-stream": "^3.3.4",
+    "front-matter": "^2.1.0",
+    "glob": "^7.0.6",
+    "marked": "^0.3.6",
+    "plugin-error": "^1.0.1",
+    "replace-ext": "^1.0.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/PaulGwamanda/gulp-json-escape-html/issues"
+  }
+}

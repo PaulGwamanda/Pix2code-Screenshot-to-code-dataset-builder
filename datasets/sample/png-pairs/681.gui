@@ -1,0 +1,23 @@
+header {
+navigation {
+navbar {
+menu-centered {
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-8-middle {
+icon,
+heading,
+leadtext
+}
+}
+}
+}
+}
