@@ -11,7 +11,5 @@ Below is the list of the folders in the repository as well as their use case. <b
 * `/screenshot-to-code` 
     * This is the location of the training model (Keras version by Emil Walner), once the dataset and web-dsl-mapping files have been created, you can run this script to train the model. README file in folder
 * `/API` 
-    * This is the FLASK API to test your endpoints. Once your model is trained, you can use it to upload and image and retrieve the output in localhost/5000. Requires tensorflow to be locally installed. README in folder.
-
-* `/website` (optional)
-    * This is the angular 8 version of the site which consumes the endpint created by FLASK. You can upload an image here and it will fetch the corresponding code from the API.
+    * **/flask:** This is the FLASK API to test your endpoints. Once your model is trained, you can use it to upload and image and retrieve the output in localhost/5000. Requires tensorflow to be locally installed. README in folder.
+    * **/angular:** This is the angular 8 version of the site which consumes the endpint created by FLASK. You can upload an image here and it will fetch the corresponding code from the API.
