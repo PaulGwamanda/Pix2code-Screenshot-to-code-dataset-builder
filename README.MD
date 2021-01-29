@@ -13,6 +13,5 @@ Below is the list of the folders in the repository as well as their use case. <b
 * `/API` 
     * This is the FLASK API to test your endpoints. Once your model is trained, you can use it to upload and image and retrieve the output in localhost/5000. Requires tensorflow to be locally installed. README in folder.
 
-* `includePath` (optional)
-    * Takes a String or an Array of paths.
-    * If set, gulp-html-to-json will use these folders as base path when searching for files.
+* `/website` (optional)
+    * This is the angular 8 version of the site which consumes the endpint created by FLASK. You can upload an image here and it will fetch the corresponding code from the API.
