@@ -1,17 +1,8 @@
-@todo: update Readme
-
-Requires tensorflow on local machine, if have anaconda, run following command:
-
-1. Activate tensorflow
-- conda activate tensorflow
-
-2. Follow the following steps: 
-- Step 1: Run gulp in dsl_library
-- Step 2: In /datasets, add custom images with naming convention (ie image-1, image-2)
-- Step 3: Update txt file in /datasets/script/create-gui-file.txt following image naming convention (ie image-1.gui, image-3.gui)
-- Step 4: Run create-gui-file.py once in /datasets/script/
-- Step 4: Run compiler.py
-- Step 5: Add gui descriptions to .gui files
-- Step 6: Run bootstrap.py / generator.py 
-
-Once sript has been run, all assets should be in training-assets folder
+* `/dsl-library`
+    * This is the location of the DSL library vocabulary and dataset builder. In this folder, you will be able to create your custom DSL library that will output two files: web-dsl-mapping.json and bootstrap.vocab which is required by the model to train on the dataset. More information on how to implement is  the README in that folder.
+* `/datasets` 
+    * This is the location of the datasets, the instructions on how to create a .gui file as well as examples are in this folder
+* `/screenshot-to-code` 
+    * This is the location of the training model (Keras version by Emil Walner), once the dataset and web-dsl-mapping files have been created, you can run this script to train the model. README file in folder
+* `/API` 
+    * This is the FLASK API to test your endpoints. Once your model is trained, you can use it to upload and image and retrieve the output in localhost/5000. Requires tensorflow to be locally installed. README in folder.
