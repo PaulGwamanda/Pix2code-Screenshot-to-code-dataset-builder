@@ -1,8 +1,8 @@
 ## Overview
 
-This project is based off of the Pix2code library, particulalry the [screenshot-2-code](https://github.com/emilwallner/Screenshot-to-code) version by Emil Walner which uses Keras. <br/>
+This project is based off of the Pix2code library, particulalry the [screenshot-2-code](https://github.com/emilwallner/Screenshot-to-code) version by Emil Walner which uses Keras. <br/><br/>
 Below is the list of the folders in the repository as well as their use case. <br/>
-The project has been customised to include the creation of your own DSL vocab library (web-dsl-mapping.json), bootstrap.vocab file for the tokens, and datasets structure as well as examples. 
+The project has been customised to include the creation of your own DSL vocab library (**web-dsl-mapping.json**), **bootstrap.vocab** file for the tokens, and **.GUI datasets** structure as well as examples. 
 
 * `/dsl-library`
     * This is the location of the DSL library vocabulary and dataset builder. In this folder, you will be able to create your custom DSL library that will output two files: web-dsl-mapping.json and bootstrap.vocab which is required by the model to train on the dataset. More information on how to implement is  the README in that folder.
