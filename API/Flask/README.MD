@@ -8,4 +8,4 @@ To run API, go to CMD and type ff commands:
 
 Then open the terminal in http://127.0.0.1:5000/
 
-To deactivate, type "deactivate" in cmd prompt
+To deactivate, type "deactivate" in cmd prompt.
