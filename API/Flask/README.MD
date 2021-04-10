@@ -1,6 +1,6 @@
 conda info --envs
 conda activate C:\Users\User-PC\Anaconda3\envs\tensorflow
-conda activate tensorflow2
+conda activate tensorflow
 
 To run API, go to CMD and type ff commands:
 1. conda activate tensorflow
