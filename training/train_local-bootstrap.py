@@ -1,35 +1,25 @@
-import os
 from os import listdir
-import keras
-from numpy import array
-from tensorflow.keras.preprocessing.text import Tokenizer, one_hot
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.models import Model, load_model, Sequential, model_from_json
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.layers import Dense, Dropout, Flatten
-from tensorflow.keras.optimizers import RMSprop
-from keras.layers.convolutional import Conv2D
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.layers import Embedding, TimeDistributed, RepeatVector, LSTM, concatenate , Input, Reshape, Dense
 import numpy as np
-import tensorflow as tf
-print('Tensorflow version:', tf.__version__)
+from numpy import array
+import keras
+from keras.preprocessing.text import Tokenizer, one_hot
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import Model, Sequential, model_from_json
+from keras.utils import to_categorical
+from keras.layers.core import Dense, Dropout, Flatten
+from keras.layers.convolutional import Conv2D
+from keras.callbacks import ModelCheckpoint
+from keras.layers import Embedding, GRU, TimeDistributed, RepeatVector, LSTM, concatenate, Input, Reshape, Dense
+from keras.optimizers import RMSprop
+print(keras.__version__)
 
-resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu='grpc://' + os.environ['COLAB_TPU_ADDR'])
-tf.config.experimental_connect_to_cluster(resolver)
-# This is the TPU initialization code that has to be at the beginning.
-tf.tpu.experimental.initialize_tpu_system(resolver)
-strategy = tf.distribute.experimental.TPUStrategy(resolver)
+dir_name = 'dataset/train/'
+bootstrap_vocab = 'assets/bootstrap.vocab'
 
-from google.colab import drive
-drive.mount('/content/gdrive')
+weights_path = 'weights/'
+weights_hdf5 = weights_path + "org-weights-epoch-{epoch:04d}--loss-{loss:.4f}.hdf5"
 
-# !ls "/content/gdrive/My Drive/weights"
-mydrive = "/content/gdrive/My Drive"
-dir_name = mydrive+"/test/"
-weights = mydrive+"/output/weights.hdf5"
-bootstrap_vocab = mydrive+"/weights/bootstrap.vocab"
-model_json = mydrive+"/weights/model_96.json"
+epochs = 1
 
 # Read a file and return a string
 def load_doc(filename):
@@ -50,9 +40,9 @@ def load_data(data_dir):
             image = np.load(data_dir+filename)
             images.append(image['features'])
         else:
-            # Load the boostrap tokens and rap them in a start and end tag
+            # Load the bootstrap tokens and rap them in a start and end tag
             syntax = '<START> ' + load_doc(data_dir+filename) + ' <END>'
-            # Seperate all the words with a single space
+            # Separate all the words with a single space
             syntax = ' '.join(syntax.split())
             # Add a space after each comma
             syntax = syntax.replace(',', ' ,')
@@ -72,10 +62,10 @@ tokenizer.fit_on_texts([load_doc(bootstrap_vocab)])
 vocab_size = len(tokenizer.word_index) + 1
 # Map the input sentences into the vocabulary indexes
 train_sequences = tokenizer.texts_to_sequences(texts)
-# The longest set of boostrap tokens
+# The longest set of bootstrap tokens
 max_sequence = max(len(s) for s in train_sequences)
 # Specify how many tokens to have in each input sentence
-max_length = 12
+max_length = 48
 
 def preprocess_data(sequences, features):
     X, y, image_data = list(), list(), list()
@@ -87,15 +77,14 @@ def preprocess_data(sequences, features):
             in_seq = pad_sequences([in_seq], maxlen=max_sequence)[0]
             # Turn the output into one-hot encoding
             out_seq = to_categorical([out_seq], num_classes=vocab_size)[0]
-            # Add the corresponding image to the boostrap token file
+            # Add the corresponding image to the bootstrap token file
             image_data.append(features[img_no])
             # Cap the input sentence to 48 tokens and add it
-            X.append(in_seq[-12:])
+            X.append(in_seq[-48:])
             y.append(out_seq)
     return np.array(X), np.array(y), np.array(image_data)
 
 X, y, image_data = preprocess_data(train_sequences, train_features)
-
 
 #Create the encoder
 image_model = Sequential()
@@ -134,17 +123,19 @@ model = Model(inputs=[visual_input, language_input], outputs=decoder)
 optimizer = RMSprop(lr=0.0001, clipvalue=1.0)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 
-print(model.summary())
+# serialize model to `
+model_json = model.to_json()
+with open(weights_path + 'model.json', "w") as json_file:
+    json_file.write(model_json)
+    print("Saved model to disk")
 
-#Save the model for every 2nd epoch
-filepath="weights.hdf5"
-checkpoint = ModelCheckpoint(filepath, monitor='val_loss', verbose=1)
+#Save the weights.hdf5 file
+checkpoint = ModelCheckpoint(weights_hdf5, monitor='val_loss', verbose=1)
 callbacks_list = [checkpoint]
-steps = len(texts)
-print('steps: ', steps)
+
 print('max_sequence: ', max_sequence)
 
 # test the data generator
-model.fit([image_data, X], y, shuffle=False, validation_split=0.1, callbacks=callbacks_list, verbose=1, epochs=15)
+model.fit([image_data, X], y, shuffle=False, validation_split=0.1, callbacks=callbacks_list, verbose=1, epochs=epochs)
 
-model.save(mydrive + '/output/weights.hdf5')
+model.save(weights_hdf5)

@@ -12,10 +12,10 @@ import os
 IMAGE_SIZE = 256
 
 dsl_mapping = '../dsl-builder/DSL/web-dsl-mapping/web-dsl-mapping.json'
-bootstrap_vocab = './compiler/assets/bootstrap.vocab'
+bootstrap_vocab = './assets/bootstrap.vocab'
 read_files = glob.glob('./dataset/png-pairs/*.gui')
 dsl_file_path = '../dsl-builder/DSL/web-dsl-mapping/web-dsl-mapping.json'
-dsl_final_output = 'compiler/assets/web-dsl-mapping.json'
+dsl_final_output = 'assets/web-dsl-mapping.json'
 png_pairs = 'dataset/gui-pairs'
 npz_pairs = 'dataset/train'
 train_path = 'dataset/temp'
@@ -85,8 +85,8 @@ def unique_file(input_filename, output_filename):
     file.close()
 
 # Strip and pull out only unique words from above list
-tokens = './compiler/assets/tokens.txt'
-tokenKeysFromDataset = './compiler/assets/token-keys-from-dataset.txt'
+tokens = './assets/tokens.txt'
+tokenKeysFromDataset = './assets/token-keys-from-dataset.txt'
 
 with open(tokens, "wb") as outfile:
     for f in read_files:
@@ -94,7 +94,7 @@ with open(tokens, "wb") as outfile:
             outfile.write(infile.read())
 
  # Remove unnecessary characters from the words (ie: },{, and comma
-    cleaned_file = "./compiler/assets/cleaned_file.txt"
+    cleaned_file = "./assets/cleaned_file.txt"
 
     delete_list = ["}", "{", ","]
     fin = open(tokens)
@@ -106,7 +106,7 @@ with open(tokens, "wb") as outfile:
     fin.close()
     fout.close()
 
-unique_file('./compiler/assets/cleaned_file.txt', tokenKeysFromDataset)
+unique_file('./assets/cleaned_file.txt', tokenKeysFromDataset)
 
 # Get all keys from web-dsl-mapping.json
 with open(dsl_mapping) as json_file:
@@ -168,4 +168,4 @@ filedata = filedata.replace('closing-tag', '<END>')
 with open(bootstrap_vocab, 'w') as file:
   file.write(filedata)
 
-print('Assets saved in /compiler/assets')
+print('Assets saved in /assets')

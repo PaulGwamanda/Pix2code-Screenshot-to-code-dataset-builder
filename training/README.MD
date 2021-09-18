@@ -22,14 +22,24 @@ python preprocessor.py
 ```
 > You can now run the local training scripts to start train the model:
 >
+
+## Training
+
+There are two ways to train the model: 
+> - <b>bootstrap.py</b>: loads the entire dataset as one batch (uses lots of memory)
+> - <b>bootstrap_generator.py</b>: loads the dataset in batches (uses less memory)
+
+To train the model, use either of these and run:
+
 ```
-python train.py 
+python train_local-bootstrap.py 
 ```
 This will generate your <b>model.json</b> and save your weights to <b>weights.hdf5</b> format.  <br>
+You will also see the model training in your terminal as well as epochs.
 
 ## Test model accuracy
 
-> To test your trained output, open the test_model_accuracy.py file and run:
+To test your trained output, open the test_model_accuracy.py file and run:
 >
 ```
 python test_model_accuracy.py 
@@ -37,7 +47,7 @@ python test_model_accuracy.py
 > *To improve accuracy of unseen examples, train the model on a larger dataset. <br>
 
 ## Compile to website template
-> To compile the model output to a responsive bootstrap build that is deployable, head over to the compiler/api folder and follow the readme instructions there:
+> To compile the model output to a responsive bootstrap build that is deployable, head over to the weights/eval/api folder and follow the readme instructions there:
 
 
 <br><b>
