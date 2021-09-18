@@ -1,9 +1,4 @@
 ## Overview
 
-This is where the dataset is built, all the .guis are created here:
-
-* `/gui-pairs`
     * Contains 100 samples, the full dataset contains 2500 of these, please contact me if you're interested in the full dataset.
-   
-* `/script`
-    * Converts png/jpg files to numpy arrays (npz format) which is required for training
+    * When ready to train the model, move the images to the training/dataset folder for preprocessing, instructions for trainign are in the readme file.
