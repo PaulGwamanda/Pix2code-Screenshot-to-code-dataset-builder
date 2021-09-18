@@ -11,7 +11,7 @@ var log = require('fancy-log');
  */
 gulp.task('default', function () {
 
-    return gulp.src('./token-builder/token-builder.tpl')
+    return gulp.src('./tokens/token-builder.tpl')
         .pipe(htmlToJson({
             filename : 'web-dsl-mapping'
             , useAsVariable: false

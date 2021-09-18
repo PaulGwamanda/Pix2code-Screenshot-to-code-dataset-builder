@@ -1,0 +1,114 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+banner-slideshow {
+row-centered {
+col-12 {
+heading,
+text
+}
+}
+}
+}
+
+section {
+heading,
+row {
+col-4 {
+group-bordered {
+heading,
+text,
+button
+}
+}
+col-4 {
+group-bordered {
+heading,
+text,
+button
+}
+}
+col-4 {
+group-bordered {
+heading,
+text,
+button
+}
+}
+}
+heading,
+row {
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+}
+row {
+col-6 {
+heading,
+text,
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+list-item
+}
+text
+}
+col-6 {
+image
+}
+}
+row {
+col-8 {
+text
+}
+col-4 {
+button
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

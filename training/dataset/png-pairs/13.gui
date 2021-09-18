@@ -1,0 +1,21 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+}
+
+section-bg-color {
+heading,
+text
+}
+
+footer {
+}

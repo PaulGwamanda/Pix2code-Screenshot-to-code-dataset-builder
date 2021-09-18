@@ -1,0 +1,60 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+}
+
+section {
+heading,
+row {
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+col-4 {
+group-bordered {
+card-with-image
+}
+}
+}
+row-centered {
+col-12 {
+pagination
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

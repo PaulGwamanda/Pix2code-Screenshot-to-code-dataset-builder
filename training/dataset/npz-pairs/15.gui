@@ -1,0 +1,45 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+}
+
+section {
+heading,
+leadtext,
+heading,
+row-centered {
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

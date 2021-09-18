@@ -1,0 +1,39 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+}
+
+section {
+heading,
+row {
+col-12 {
+card-with-image,
+
+card-with-image,
+
+card-with-image,
+
+card-with-image
+}
+}
+row-centered {
+col-12 {
+pagination
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

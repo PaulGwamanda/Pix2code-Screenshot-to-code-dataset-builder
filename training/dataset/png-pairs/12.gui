@@ -1,0 +1,61 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link
+}
+}
+}
+}
+
+section {
+heading,
+row {
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+col-3 {
+image
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

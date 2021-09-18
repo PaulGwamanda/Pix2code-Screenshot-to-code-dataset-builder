@@ -7,4 +7,3 @@ This is where the dataset is built, all the .guis are created here:
    
 * `/script`
     * Converts png/jpg files to numpy arrays (npz format) which is required for training
-    * Creates empty .gui files in folder  

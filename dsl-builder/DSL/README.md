@@ -1,19 +1,12 @@
-Tool for creating a JSON file list out of html files in a folder. This is useful if you want to create a DSL of specific tokens ie html variables. Can be also useful if you want to generate various groups of templates and include only the html files you want.
+## Usage
 
->To install, clone/pull repo then run:
+> Run gulp:
 >
 ```
-$ npm install
+$ gulp 
 ```
 
-> For Demo:
->
-```
-$ cd demo
-$ gulp compileD
-```
-
->Then look inside the output folder for your json file. It will get all the files inside the 'templateGroup' folder and write them as a DSL of variable to json strings, which should look like this:
+> This will generate the web-dsl-mapping.json, which is using the tokens and template reference from the /tokens folder:
 
 ```
 {
@@ -24,70 +17,6 @@ $ gulp compileD
 ```
 
 ## Options
-
-As of now, there are two options that you can use:
-
-* `filename` (optional)
-    * filename of the json file
-    * should use only if you have 1 group template.
-* `useAsVariable` (optional)
-    * default false
-    * If set to true, it will output your file as a javascript variable. Otherwise, json file
-* `isAngularTemplate` (optional)
-    * default false
-    * If set to true, it will output your file as an angular template cache.
-* `prefix` (optional)
-    * set the prefix on your angular module name
-
-* `includePath` (optional)
-    * Takes a String or an Array of paths.
-    * If set, gulp-html-to-json will use these folders as base path when searching for files.
-
-
-
-Sample outpus if useAsVariable = false;
-
-```javascript
-{
-    "key.name" : "<div>your html content</div>"
-}
-
-```
-output file is filename.json
-
-
-Sample output if useAsVariable = true;
-
-```javascript
-var filename = {
-    "key.name" : "<div>your html content</div>"
-}
-
-```
-output file is filename.js
-
-
-Sample output if isAngularTemplate = true;
-
-```javascript
-
-    angular.module("prefix.filename").run(['$templateCache',
-      function($templateCache) {
-        $templateCache.put("key.name",
-            // keyname.html content (escaped)
-        );
-        $templateCache.put("key2.name",
-            // keyname2.html content (escaped)
-        );
-        // etc.
-      }
-    ]);
-
-```
-output file is filename.js
-
-
-## Usage
 
 In the file where you want want to compile you html, add a comment similar to this:
 

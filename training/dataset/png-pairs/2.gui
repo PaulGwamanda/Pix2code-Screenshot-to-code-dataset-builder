@@ -1,0 +1,61 @@
+header {
+navigation {
+navbar-dark {
+logo,
+menu-right {
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext
+}
+}
+}
+}
+}
+
+section {
+row {
+col-8-middle {
+heading,
+text,
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-8-middle {
+heading,
+text
+}
+}
+}
+
+section {
+row {
+col-8-middle {
+heading,
+text
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}
