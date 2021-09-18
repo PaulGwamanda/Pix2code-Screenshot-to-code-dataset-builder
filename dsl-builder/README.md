@@ -1,7 +1,7 @@
 Tool for creating a JSON file list out of html files in a folder. <br>
 Creates web-dsl-mapping.json file with corresponding HTML code snippets. <br>
 
-## Usage
+## Installation
 >To install, clone/pull repo then run:
 >
 ```
@@ -14,6 +14,8 @@ $ npm install
 $ cd demo
 $ gulp compileD
 ```
+
+## Usage
 
 >Then look inside the output folder for your json file. It will get all the files inside the 'templateGroup' folder and write them as a DSL of variable to json strings, which should look like this:
 
