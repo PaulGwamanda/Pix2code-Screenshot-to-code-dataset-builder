@@ -1,0 +1,172 @@
+header {
+navigation {
+navbar-dark {
+menu-left {
+telephone,
+email,
+address
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link
+}
+}
+}
+navbar {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link,
+link,
+link,
+icon-search,
+}
+}
+}
+jumbotron {
+row-bg-color-centered {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+group-bg-color {
+heading
+}
+group-bg-color {
+text
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+}
+row-bg-color {
+col-12 {
+call-to-action
+}
+}
+row {
+col-3 {
+heading,
+text,
+button
+}
+col-3 {
+card-with-image
+}
+col-3 {
+card-with-image
+}
+col-3 {
+card-with-image
+}
+}
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-6 {
+testimonial
+}
+col-6 {
+testimonial
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+list-horizontal {
+sponsor,
+sponsor,
+sponsor
+}
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-4 {
+heading,
+list-vertical {
+list-item,
+list-item,
+list-item
+}
+}
+col-4 {
+heading,
+text
+}
+col-4 {
+heading,
+text,
+telephone,
+telephone,
+email,
+website
+}
+}
+row-centered {
+col-12 {
+list-horizontal {
+telephone,
+email,
+address
+}
+}
+}
+}
+
+footer-bg-color {
+col-6 {
+copyright
+}
+col-6 {
+group-right {
+list-horizontal {
+social-link,
+social-link
+}
+}
+}
+}

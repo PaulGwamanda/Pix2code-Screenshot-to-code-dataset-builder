@@ -1,0 +1,45 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+button
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+heading,
+text,
+group {
+button,
+button
+}
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+}
+}
+}

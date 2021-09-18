@@ -1,0 +1,104 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+row {
+telephone,
+email,
+link
+}
+}
+}
+navbar {
+menu-right {
+link-active,
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+icon-search,
+icon-cart,
+icon
+}
+}
+}
+banner-slideshow {
+row-centered {
+col-12 {
+subheading,
+heading,
+button
+}
+}
+}
+}
+
+section-bg-color-full-width {
+row {
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+}
+row {
+col-6 {
+subheading,
+heading,
+text
+}
+}
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+row-centered {
+col-12 {
+button
+}
+}
+}
+
+section-bg-color-full-width {
+row {
+col-6 {
+group-bg-image
+}
+}col-6 {
+heading,
+text,
+row {
+col-6 {
+service
+}
+col-6 {
+service
+}
+col-6 {
+service
+}
+col-6 {
+service
+}
+}
+}
+}
+}

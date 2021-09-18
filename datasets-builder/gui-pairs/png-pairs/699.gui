@@ -1,0 +1,55 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link,
+link-active,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-8-middle {
+heading,
+leadtext,
+button,
+icon
+}
+}
+}
+}
+}
+
+section {
+group-centered {
+heading,
+leadtext,
+row {
+col-12 {
+gallery
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+leadtext
+row {
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+col-4 {
+team-member
+}
+}
+}
+}

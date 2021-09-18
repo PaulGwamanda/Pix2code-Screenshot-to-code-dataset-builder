@@ -1,0 +1,42 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-right {
+link,
+button
+}
+}
+}
+row {
+col-7 {
+heading,
+leadtext,
+button
+}
+col-5 {
+image
+}
+}
+}
+
+section {
+row {
+col-10 {
+media-object
+}
+col-2 {
+list-vertical {
+icon,
+icon
+}
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+heading,
+leadtext
+}
+}

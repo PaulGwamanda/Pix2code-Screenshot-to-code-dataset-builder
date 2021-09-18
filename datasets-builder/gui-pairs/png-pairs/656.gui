@@ -1,0 +1,128 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+heading,
+leadtext,
+button
+}
+}
+}
+}
+
+section {
+row {
+col-3 {
+heading
+}
+col-6 {
+text
+}
+col-3 {
+button
+}
+}
+row-centered {
+col-4 {
+card-with-image
+}
+col-4 {
+card-with-image
+}
+col-4 {
+card-with-image
+}
+}
+row-centered {
+col-8-middle {
+heading,
+leadtext
+}
+}
+row {
+col-12 {
+gallery
+}
+}
+row-bg-color {
+col-12 {
+call-to-action
+}
+}
+row-centered {
+col-8-middle {
+heading,
+leadtext
+}
+}
+row {
+col-12 {
+list-horizontal {
+sponsor,
+sponsor,
+sponsor,
+sponsor,
+sponsor,
+sponsor
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-3 {
+heading,
+text
+}
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+heading,
+address,
+telephone,
+telephone,
+email,
+website
+}
+}
+}
+
+footer-bg-color {
+group-centered {
+copyright
+}
+}

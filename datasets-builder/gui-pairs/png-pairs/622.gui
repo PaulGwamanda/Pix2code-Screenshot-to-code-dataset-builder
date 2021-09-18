@@ -1,0 +1,84 @@
+header {
+jumbotron {
+group-centered {
+row {
+col-8-middle {
+heading,
+subheading,
+leadtext,
+button
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-3 {
+feature
+}
+col-3 {
+feature
+}
+col-3 {
+feature
+}
+col-3 {
+feature
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+row {
+col-4 {
+subheading,
+service
+}
+col-4 {
+subheading,
+service
+}
+col-4 {
+subheading,
+service
+}
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading,
+media-object
+}
+}
+row {
+col-12 {
+text,
+text,
+text,
+text,
+text,
+text,
+text,
+text,
+text,
+group-centered {
+button
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+copyright
+}
+}

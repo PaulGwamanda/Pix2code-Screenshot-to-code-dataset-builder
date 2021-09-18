@@ -1,0 +1,145 @@
+header {
+navigation {
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+}
+
+section-bg-image
+
+section {
+row {
+col-12 {
+breadcrumb
+}
+}
+row {
+col-8 {
+heading,
+subheading,
+text,
+text,
+row {
+col-3 {
+stats
+}
+col-3 {
+group-bg-color {
+stats
+}
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+}
+row {
+col-12 {
+heading,
+text
+}
+row {
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+}
+}
+}
+col-4 {
+group-bordered {
+group {
+slideshow {
+card-with-image
+}
+}
+group {
+heading,
+image
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-6-middle {
+subscribe-form
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-4 {
+heading,
+address,
+telephone,
+email,
+button
+}
+col-4 {
+heading,
+list-horizontal {
+social-link,
+social-link,
+social-link,
+text,
+subscribe-form
+}
+}
+col-4 {
+row {
+col-6 {
+heading,
+text,
+list-vertical {
+list-item,
+list-item
+}
+}
+col-6 {
+image
+}
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-6 {
+copyright,
+text
+}
+col-6 {
+social-link-with-text,
+social-link-with-text,
+social-link-with-text
+}
+}
+}

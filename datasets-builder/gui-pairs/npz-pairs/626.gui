@@ -1,0 +1,210 @@
+header {
+navigation {
+navbar {
+menu-left {
+media-object
+}
+menu-centered {
+logo
+}
+menu-right {
+telephone
+}
+}
+navbar {
+menu-full-width {
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+icon,
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-8-middle {
+heading
+}
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-4 {
+group-bg-color {
+service
+}
+}
+col-4 {
+group-bg-color {
+service
+}
+}
+col-4 {
+group-bg-color {
+service
+}
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-4 {
+media-object
+}
+col-8 {
+row {
+col-4 {
+text
+}
+col-4 {
+text
+}
+col-4 {
+text
+}
+col-4 {
+text
+}
+col-4 {
+text
+}
+col-4 {
+link
+}
+}
+}
+}
+}
+
+section-bg-image {
+row-centered {
+col-12 {
+icon,
+heading
+}
+}
+row {
+col-6 {
+heading,
+testimonial-slideshow-single
+}
+col-6 {
+contact-form
+}
+}
+}
+
+section-full-width {
+group-centered {
+row {
+col-12 {
+heading
+}
+}
+row {
+col-3 {
+group-bg-color {
+card-with-image
+}
+}
+col-3 {
+group-bg-color {
+card-with-image
+}
+}
+col-3 {
+group-bg-color {
+card-with-image
+}
+}
+col-3 {
+group-bg-color {
+card-with-image
+}
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-12 {
+icon,
+heading
+}
+}
+row {
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link
+}
+}
+col-3 {
+heading,
+text,
+address,
+telephone,
+text
+}
+col-3 {
+logo
+}
+}
+row {
+col-6 {
+copyright
+}
+col-6 {
+group-right {
+social-link-with-text
+}
+}
+}
+}

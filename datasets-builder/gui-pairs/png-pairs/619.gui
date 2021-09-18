@@ -1,0 +1,63 @@
+header {
+navigation {
+navbar-dark {
+menu-left {
+email,
+address
+}
+menu-right {
+telephone
+}
+}
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+subheading,
+heading,
+text,
+button
+}
+}
+}
+}
+
+section {
+row {
+col-4 {
+group-bg-color {
+service
+}
+}
+col-4 {
+group-bg-color {
+icon,
+subheading,
+heading,
+hours,
+hours,
+hours
+}
+}
+col-4 {
+group-bg-color {
+icon,
+subheading,
+heading,
+text
+}
+}
+}
+}

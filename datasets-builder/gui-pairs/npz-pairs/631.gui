@@ -1,0 +1,117 @@
+header {
+navigation {
+navbar {
+menu-right {
+icon,
+icon,
+icon,
+icon,
+icon,
+icon-search
+}
+}
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+}
+}
+}
+jumbotron,
+breadcrumb
+}
+
+section {
+group-centered {
+heading,
+leadtext,
+row-centered {
+col-4 {
+group-bg-color {
+team-member
+}
+}
+}
+}
+}
+
+section {
+row {
+col-4 {
+group-centered {
+heading,
+list-horizontal {
+progress-bar,
+progress-bar,
+progress-bar,
+progress-bar
+}
+}
+}
+col-4 {
+heading,
+text,
+text
+}
+col-4 {
+heading,
+text,
+text,
+text
+}
+}
+}
+
+section-bg-color {
+row {
+col-12 {
+call-to-action
+}
+}
+}
+
+footer-bg-color {
+row {
+col-6 {
+heading,
+leadtext,
+telephone
+}
+col-6 {
+group-right {
+list-horizontal {
+link,
+link,
+link,
+link,
+link,
+icon-search,
+icon
+}
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+row-centered {
+col-12 {
+icon,
+copyright,
+text
+}
+}
+}

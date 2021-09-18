@@ -1,0 +1,109 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-centered {
+link,
+link,
+link,
+link,
+link,
+link,
+link,
+}
+menu-right {
+button
+}
+}
+}
+jumbotron {
+row {
+col-7 {
+heading,
+text,
+text,
+button
+}
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-12 {
+heading
+}
+}
+row {
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+col-3 {
+stats
+}
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+col-6 {
+testimonial
+}
+col-6 {
+testimonial
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-12 {
+heading,
+service
+}
+}
+}
+}

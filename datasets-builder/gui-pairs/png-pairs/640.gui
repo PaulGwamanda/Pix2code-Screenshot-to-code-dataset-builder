@@ -1,0 +1,63 @@
+header {
+navigation {
+navbar-dark {
+menu-left {
+text
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+navbar {
+logo,
+menu-right {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+banner-slideshow {
+row {
+col-6,
+col-6 {
+heading,
+leadtext,
+group {
+button,
+button,
+}
+}
+}
+}
+}
+
+section {
+row {
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+}
+}

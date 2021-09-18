@@ -1,0 +1,190 @@
+header {
+jumbotron {
+group-centered {
+row {
+col-6-middle {
+logo,
+heading,
+leadtext,
+subheading,
+icon
+}
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col-7 {
+text,
+address,
+hours
+}
+col-5 {
+group-bordered {
+telephone,
+text
+}
+}
+}
+}
+
+section {
+row {
+col-4 {
+image
+}
+col-8 {
+subheading,
+heading,
+text,
+list-vertical {
+list-item,
+list-item
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+leadtext
+row {
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+col-3 {
+service
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-8-middle {
+heading,
+leadtext,
+}
+}
+row {
+col-12 {
+list-horizontal {
+sponsor,
+sponsor,
+sponsor,
+sponsor
+}
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+row {
+col-4 {
+testimonial
+}
+col-4 {
+testimonial
+}
+col-4 {
+testimonial
+}
+}
+row {
+text,
+row {
+col-6 {
+media-object
+}
+col-6 {
+media-object
+}
+}
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-6 {
+hours,
+telephone,
+email,
+text,
+address
+}
+col-6 {
+map
+}
+}
+}
+
+section-bg-color {
+group-centered {
+row {
+col-7 {
+heading,
+leadtext,
+text,
+list-horizontal {
+sponsor,
+sponsor,
+sponsor,
+sponsor
+}
+}col-5 {
+heading,
+text,
+button
+}
+}
+row {
+col-4 {
+heading,
+image
+}
+col-4 {
+heading,
+image
+}
+col-4 {
+heading,
+image
+}
+}
+}
+}
+
+footer-bg-color {
+row {
+col-5 {
+copyright
+}
+col-7 {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}

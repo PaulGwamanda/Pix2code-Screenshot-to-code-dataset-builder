@@ -1,0 +1,49 @@
+header {
+navigation {
+navbar {
+logo,
+menu-left {
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-12 {
+heading
+}
+}
+}
+}
+
+section {
+group-centered {
+heading,
+leadtext
+row {
+col-4 {
+group-bg-color {
+card-with-image
+}
+}
+col-4 {
+group-bg-color {
+card-with-image
+}
+}
+col-4 {
+group-bg-color {
+card-with-image
+}
+}
+}
+}
+}

@@ -1,0 +1,213 @@
+header {
+navigation {
+navbar {
+menu-centered {
+address,
+logo,
+telephone
+}
+}
+navbar-dark {
+menu-centered {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+group-centered {
+row {
+col-12 {
+heading,
+leadtext
+}
+}
+}
+}
+}
+
+section {
+row {
+col-12 {
+button,
+booking-form
+}
+}
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col {
+group-bordered {
+feature
+}
+}
+col {
+group-bordered {
+feature
+}
+}
+col {
+group-bordered {
+feature
+}
+}
+col {
+group-bordered {
+feature
+}
+}
+col {
+group-bordered {
+feature
+}
+}
+col {
+group-bordered {
+feature
+}
+}
+}
+row {
+col-12 {
+call-to-action
+}
+}
+}
+
+section-bg-color {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-6 {
+heading,
+text,
+button
+}
+col-6 {
+image
+}
+}
+}
+
+section {
+row {
+col-3 {
+group-bordered {
+stats,
+}
+group-bordered {
+stats,
+}
+group-bordered {
+stats
+}
+}
+col-9 {
+heading,
+testimonial
+}
+}
+}
+
+section-bg-color {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+col-3 {
+team-member
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-6 {
+blog-post
+}
+col-6 {
+blog-post-sideways,
+blog-post-sideways
+}
+}
+}
+
+section-bg-color {
+slideshow {
+list-horizontal {
+sponsor,
+sponsor,
+sponsor,
+sponsor,
+sponsor
+}
+}
+}
+
+section-bg-color {
+row {
+col-4 {
+logo,
+text
+}
+col-4 {
+heading,
+row {
+col-6 {
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col-6 {
+list-vertical {
+link,
+link,
+link
+},
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+col-4 {
+heading,
+subscribe-form,
+telephone,
+social-link-with-text
+}
+}
+}
