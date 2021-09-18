@@ -3,7 +3,8 @@
 This project is based off of the [Pix2code library](https://github.com/tonybeltramelli/pix2code) by Tony Tony Beltramelli, particulalry the [screenshot-2-code](https://github.com/emilwallner/Screenshot-to-code) version by Emil Walner which uses Keras. This is the custom dataset builder fork <br/><br/>
 The project has been customised to include the creation of your own DSL vocab library (**web-dsl-mapping.json**), **bootstrap.vocab** file for the tokens, and **.GUI datasets** structure as well as examples. <br/><br/>
 
-video: https://www.youtube.com/embed/Jr6DyjczXUA
+Video: https://www.youtube.com/embed/Jr6DyjczXUA 
+(Note the weights file is not included in this project)
 
 Below is the list of the folders in the repository as well as their use case. <br/>
 
