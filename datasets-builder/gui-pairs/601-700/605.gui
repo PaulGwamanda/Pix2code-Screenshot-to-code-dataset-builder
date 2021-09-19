@@ -1,0 +1,68 @@
+section {
+row-centered {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+}
+}
+
+section-bg-image {
+row-centered {
+col-12 {
+heading,
+leadtext
+}
+}
+row {
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+col-6 {
+team-member
+}
+}
+}

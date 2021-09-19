@@ -1,0 +1,69 @@
+header {
+navigation {
+navbar {
+menu-left {
+text
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+navbar {
+logo,
+menu-right {
+hours,
+telephone,
+address
+}
+}
+navbar-dark {
+menu-left {
+link-active,
+link,
+link,
+link,
+link,
+link,
+link
+}
+menu-right {
+icon,
+icon-search,
+icon
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+group-bg-color {
+heading,
+text,
+group {
+button,
+button
+}
+}
+}
+}
+}
+}
+
+section {
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}

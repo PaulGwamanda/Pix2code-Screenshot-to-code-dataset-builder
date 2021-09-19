@@ -1,0 +1,32 @@
+header {
+navigation {
+navbar-transparent {
+logo,
+menu-centered {
+link,
+link,
+link,
+link,
+link,
+link
+}
+menu-right {
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+jumbotron-full-page {
+col-7 {
+heading,
+leadtext,
+button
+}
+}
+}

@@ -1,0 +1,87 @@
+header {
+navigation {
+navbar-transparent {
+menu-right {
+burger-menu
+}
+}
+}
+jumbotron {
+row {
+col-5 {
+heading,
+text,
+button
+}
+col-7 {
+image
+}
+}
+}
+}
+
+section {
+row {
+col-7 {
+image
+}
+col-5 {
+heading,
+text
+}
+}
+}
+
+section {
+row-no-gutter {
+col-6 {
+group-bg-color {
+icon,
+table {
+table-item,
+table-item,
+table-item,
+table-item,
+}
+}
+}
+col-6 {
+group-bg-color {
+heading,
+text,
+text,
+link
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-12 {
+testimonial
+}
+}
+row {
+col-4 {
+feature
+}
+col-4 {
+feature
+}
+col-4 {
+feature
+}
+col-4 {
+feature
+}
+col-4 {
+feature
+}
+col-4 {
+feature
+}
+}
+}
+}

@@ -1,0 +1,213 @@
+header {
+navigation {
+navbar {
+menu-left {
+address
+}
+menu-right {
+telephone,
+telephone,
+hours
+}
+}
+navbar {
+logo,
+menu-right {
+link-active,
+link,
+link,
+link,
+link
+}
+}
+}
+jumbotron {
+row {
+col-6 {
+image
+}
+col-6 {
+heading,
+subheading,
+button
+}
+}
+}
+}
+
+section {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+col-4 {
+service
+}
+}
+}
+
+section-bg-color {
+row-centered {
+col-12 {
+heading
+}
+}
+row {
+col-3 {
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+}
+}
+col-3 {
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+}
+}
+col-3 {
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+}
+}
+col-3 {
+list-vertical {
+list-item,
+list-item,
+list-item,
+list-item,
+}
+}
+}
+}
+
+section {
+group-centered {
+row {
+col-5 {
+image
+}
+col-7 {
+heading,
+leadtext,
+text,
+button
+}
+}
+}
+}
+
+section-bg-color {
+group-centered {
+heading,
+row {
+col-4 {
+testimonial
+}
+col-4 {
+testimonial
+}
+col-4 {
+testimonial
+}
+}
+}
+}
+
+section-bg-color {
+row {
+col {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link
+}
+}
+col {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col {
+heading,
+list-vertical {
+link,
+link,
+link,
+link,
+link,
+link,
+link
+}
+}
+col {
+heading,
+list-vertical {
+link,
+link,
+link,
+link
+}
+}
+col {
+group {
+heading,
+address
+}
+group {
+heading,
+telephone,
+telephone
+}
+group {
+heading,
+hours
+}
+group {
+heading,
+list-horizontal {
+social-link,
+social-link,
+social-link,
+social-link,
+social-link
+}
+}
+}
+}
+}
+
+footer-bg-color {
+copyright
+}
